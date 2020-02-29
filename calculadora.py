@@ -16,3 +16,4 @@ def potencia (a):
    n=int (input ("Ingrese un número:"));
    p=n*n;
    print("La potencia de", n, "es:", p);
+Gjcvjhhjuhh
