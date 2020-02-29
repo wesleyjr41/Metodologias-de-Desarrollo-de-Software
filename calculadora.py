@@ -4,11 +4,12 @@ def suma(a,b):
    s=a+b;
    return s;
 def resta(a, b):
-   r=a-b
-   return r
-def multiplicacion(a, b):
    pass;
+def multiplicacion(a, b):
+   pass
 def division(a, b):
    pass;
 def potencia (a):
-   pass;
+   n=int (input ("Ingrese un número:"));
+   p=n*n;
+   print("La potencia de", n, "es:", p);
