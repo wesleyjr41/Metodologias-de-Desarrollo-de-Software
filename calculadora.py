@@ -4,12 +4,16 @@ def suma(a,b):
    s=a+b;
    return s;
 def resta(a, b):
-   pass;
+   r=a-b
+   return r
 def multiplicacion(a, b):
-   pass
-def division(a, b):
    pass;
+def division(a, b):
+   try:
+      d=a/b
+   except ZeroDivisionError:
+      print("no se pued dividir para 0")
+   else:
+      return d     
 def potencia (a):
-   n=int (input ("Ingrese un número:"));
-   p=n*n;
-   print("La potencia de", n, "es:", p);
+   pass;
