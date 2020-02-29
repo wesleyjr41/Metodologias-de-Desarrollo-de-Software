@@ -1,6 +1,7 @@
 pm=***********Bienvenido a la Calculadora***********; print(pm);
 def suma(a,b):
-   pass;
+   s=a+b;
+   return s;
 def resta(a, b):
    pass;
 def multiplicacion(a, b):
